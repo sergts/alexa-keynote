@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "presentation",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Next_slide",
+                    "slots": [],
+                    "samples": [
+                        "show next slide",
+                        "go to the next slide",
+                        "move to the next slide",
+                        "move one slide",
+                        "move next slide",
+                        "go next",
+                        "go on",
+                        "next slide"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
